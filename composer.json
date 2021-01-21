@@ -1,0 +1,20 @@
+{
+    "name": "chenmin/test",
+    "description": "this is a test",
+    "type": "library",
+    "require": {
+        "hanson/foundation-sdk": "^4.0",
+        "php": "^7.0"
+    },
+    "license": "Apache",
+    "authors": [
+        {
+            "name": "chenmin",
+            "email": "1002284135@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {"Chenmin\\test\\": "src"}
+    }
+}
